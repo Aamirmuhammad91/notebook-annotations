@@ -5,6 +5,9 @@ on:
     paths:
       - '**/*.ipynb'
 
+permissions:
+  contents: write
+
 jobs:
   annotate:
     runs-on: ubuntu-latest
